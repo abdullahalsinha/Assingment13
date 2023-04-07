@@ -1,0 +1,82 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Condensed:ital,wght@1,300&family=Roboto:ital,wght@1,100&display=swap');
+
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Condensed:ital,wght@1,300&family=Roboto:ital,wght@1,100&display=swap');
+
+
+*{
+    max-width: 1420px;
+}
+
+header .container{
+    background-image:url(image/pic1.png) ;
+    
+    background-size: cover;
+    
+}
+
+header .container .up img{
+    padding: 20px 30px;
+}
+
+header .container .up ul{
+    display: flex;
+    padding: 40px 50px; 
+    position: relative;
+    left: 450px;
+    top: -165px;
+}
+
+header .container .up li{
+    list-style: none;
+    padding: 40px;
+}
+
+header .container .up li a{
+    text-decoration: none;
+    width: 42px;
+    height: 22px;
+    font-family: 'Saira';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+    text-transform: uppercase;
+    color: #000000;
+}
+
+/* header .container .side h4{
+    display: inline;
+    padding: 10px 0px;
+} */
+
+.container .down-left .text-1 h2{
+    color: #eb2124;
+    font-family: 'Saira';
+    font-size: 44px;
+    font-weight: 600;
+    line-height: 58px;
+    letter-spacing: 0em;
+    text-align: left;
+    position: relative;
+    left: 40px;
+}
+
+.container .down-left .text2 h2{
+    font-family: 'Ubuntu';
+    font-size: 44px;
+    font-weight: 700;
+    line-height: 58px;
+    letter-spacing: 0em;
+    text-align: left;
+    position: relative;
+    left: 35px;
+    top: -35px;
+    color: white;
+}
+
+.hp img{
+    position: relative;
+    left: 500px;
+}

@@ -25,7 +25,7 @@ header .container .up ul{
     padding: 40px 50px; 
     position: relative;
     left: 450px;
-    top: -165px;
+    top: -158px;
 }
 
 header .container .up li{
@@ -43,13 +43,32 @@ header .container .up li a{
     font-size: 14px;
     line-height: 22px;
     text-transform: uppercase;
-    color: #000000;
+    color: white;
 }
+
+hr{
+    position: relative;
+    top: -228px;
+}
+
+/* header .container .up li::after a{
+    content: "";
+    display: inline-block;
+    width: 20px;
+    height: 10px;
+    background-color: #eb2124;
+
+} */
 
 /* header .container .side h4{
     display: inline;
     padding: 10px 0px;
 } */
+
+.container .down-left {
+    margin-top: -50px;
+    margin-left: 40px;
+}
 
 .container .down-left .text-1 h2{
     color: #eb2124;
@@ -63,6 +82,18 @@ header .container .up li a{
     left: 40px;
 }
 
+
+
+.container .down-left .text2 h2::after{
+    content: "";
+    display: inline-block;
+    width: 200px;
+    height: 2px;
+    background-color: #eb2124;
+    position: relative;
+    top: 25px;
+    left: -415px;
+}
 .container .down-left .text2 h2{
     font-family: 'Ubuntu';
     font-size: 44px;
@@ -76,7 +107,213 @@ header .container .up li a{
     color: white;
 }
 
+.container .down-left .text2 p{
+    color: white;
+    width: 491px;
+    position: relative;
+    left: 40px;
+    top: -40px;
+}
+
+.container .down-left .text2 button{
+    background-color: #A30003;
+    color: white;
+    width: 260px;
+    height: 48px;
+    text-align: center;
+    position: relative;
+    left: 35px;
+    top: -30px;
+    border: none;
+}
+
+.container .down-right .left img{
+    position: relative;
+    width: 25%;
+    top: -410px;
+    left: 626px;
+}
+
+.container .down-right .right img{
+    position: relative;
+    top: -664px;
+    left: 983px;
+    width: 25%;
+}
+
+.container .down-right .down img{
+    position: relative;
+    width: 50%;
+    top: -647px;
+    left: 639px;
+}
+
 .hp img{
     position: relative;
     left: 500px;
+}
+
+
+
+        /* end of header  */
+
+
+
+        /* start of Construction Completion */
+
+
+
+
+section .container {
+    /* background-color: #13191D; */
+}
+
+
+section .container .text h2{
+    height: 48px;
+    position: relative;
+    left: 323px;
+    top: 90px;
+    color: #A30003;
+    display: inline-block;
+    font-family: 'Saira';
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 76px;
+    text-transform: uppercase;
+
+/* background: linear-gradient(0deg, #CA1217, #CA1217), linear-gradient(144.5deg, #EB1D23 12.71%, #A30003 93.87%), #FFFFFF;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+background-clip: text; */
+
+
+}
+
+section .container .text h2::after{
+    content: "";
+    display: inline-block;
+    width: 200px;
+    height: 2px;
+    background-color: #fff;
+}
+
+section .container .left img{
+    width: 23%;
+    position: relative;
+    top: 108px;
+}
+
+section .container .left2 img{
+    width: 21%;
+    position: relative;
+    left: 325px;
+    top: -142px;
+}
+
+section .container .right img{
+    width: 48%;
+    position: relative;
+    left: 650px;
+    top: -384px;
+}
+
+section .container .bg-p img{
+    width: 100%;
+    max-width: 1420px;
+    position: relative;
+    top: -267px;
+}
+
+section .container .bg-p h2{
+    position: relative;
+    left: 310px;
+    top: -715px;
+    width: 794px;
+    font-family: 'Saira';
+    font-weight: 600;
+    font-size: 80px;
+    line-height: 80px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+section .container .office h2{
+    width: 190px;
+    position: relative;
+    left: 50px;
+    top: -400px; 
+    color: #CA1217;
+}
+
+section .container .office h2::after{
+    content: "";
+    display: inline-block;
+    width: 100px;
+    height: 2px;
+    background-color: #000000;
+    position: relative;
+    top: -17px;
+}
+
+section .container .office img{
+    width: 42%;
+    position: relative;
+    top: -401px;
+    left: 50px;
+}
+
+section .container .off-ri .ll h3{
+    position: relative;
+    top: -694px;
+    left: 757px;
+    color: #CA1217;
+}
+
+section .container .off-ri .ll h3::after{
+    content: "";
+    display: inline-block;
+    width: 180px;
+    height: 2px;
+    background-color: #CA1217;
+    position: relative;
+    height: 2px;
+    top: 11px;
+    left: -97px;
+}
+
+section .container .off-ri .lr h3{
+    position: relative;
+    top: -734px;
+    left: 943px;
+    color: #4A4A4A;
+   
+}
+
+section .container .off-ri .lr h3::after{
+    content: "";
+    display: inline-block;
+    width: 170px;
+    height: 2px;
+    height: 2px;
+    background-color:#4A4A4A ;
+    position: relative;
+    top: 10px;
+    left: -102px;
+}
+
+section .container .off-ri .down p{
+    width: 539px;
+    position: relative;
+    top: -728px;
+    left: 757px;
+}
+
+section .container .off-ri .down h2{
+    color: #CA1217;
+    font-size: 32px;
+    position: relative;
+    left: 757px;
+    top: -710px;
 }

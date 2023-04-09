@@ -260,8 +260,12 @@ section .container .office h2::after{
 section .container .office img{
     width: 42%;
     position: relative;
-    top: -401px;
+    top: -425px;
     left: 50px;
+}
+
+section .container .off-ri{
+    margin-top: -40px;
 }
 
 section .container .off-ri .ll h3{
@@ -315,5 +319,191 @@ section .container .off-ri .down h2{
     font-size: 32px;
     position: relative;
     left: 757px;
+    top: -721px;
+}
+
+.down-ll p{
+    position: relative;
     top: -710px;
+    left: 759px;
+    width: 63px;
+    height: 25px;
+    font-family: 'Saira';
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 25px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #000000;
+}
+
+.down-ll h3{
+    position: relative;
+    top: -809px;
+    left: 730px;
+    width: 132px;
+    height: 157px;
+    font-family: 'Saira';
+    font-weight: 300;
+    font-size: 100px;
+    line-height: 157px;
+    text-align: center;
+    color: #D51419;
+}
+
+.down-ll a{
+    text-decoration: none;
+    position: relative;
+    top: -896px;
+    left: 750px;
+    width: 140px;
+    height: 20px;
+    font-family: 'Saira';
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 20px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #020101;
+}
+
+.down-rr p{
+    position: relative;
+    top: -1136px;
+    left: 1009px;
+    width: 84px;
+    height: 25px;
+    font-family: 'Saira';
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 25px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #130c0c;
+}
+
+.down-rr h3{
+    position: relative;
+    top: -1235px;
+    left: 988px;
+    width: 121px;
+    height: 157px;
+    font-family: 'Saira';
+    font-weight: 300;
+    font-size: 100px;
+    line-height: 157px;
+    text-align: center;
+    color: #D51419;
+}
+
+
+    /* end of section  */
+
+
+    /* start of about us  */
+
+
+.about-us .container{
+    position: relative;
+}
+
+.about-us .container .top img{
+    position: absolute;
+    top: -1090px;
+    width: 1200px;
+    left: 68px;
+}
+
+.about-us .container .left h3{
+    position: absolute;
+    top: -908px;
+    left: 86px;
+    width: 210px;
+    height: 63px;
+    font-family: 'Saira';
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 63px;
+    text-transform: uppercase;
+    color: #CA1217;
+}
+
+.about-us .container .left p{
+    position: absolute;
+    top: -802px;
+    left: 86px;
+    width: 466px;
+    height: 462px;
+    font-family: 'Saira';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+    color: #0f0d0d;
+}
+
+.about-us .container .right img{
+    width: 703px;
+    position: absolute;
+    top: -802px;
+    left: 622px;
+}
+
+.about-us .container .down-left img{
+    width: 30%;
+    position: absolute;
+    top: -314px;
+    left: 26px;
+}
+
+.about-us .container .down-right .foun p{
+    position: absolute;
+    top: -187px;
+    left: 710px;
+    width: 94px;
+    height: 31px;
+    font-family: 'Saira';
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 31px;
+    text-transform: uppercase;
+    color: #000000;
+}
+
+.about-us .container .down-right .down-m h3{
+    position: absolute;
+    width: 442px;
+    height: 63px;
+    left: 705px;
+    top: -176px;
+    font-family: 'Saira';
+    font-weight: 500;
+    font-size: 34px;
+    line-height: 63px;
+    text-transform: uppercase;
+    color:#CA1217;
+}
+
+.about-us .container .down-right .down-m h3::after{
+    content: "";
+    display: inline-block;
+    width: 170px;
+    height: 2px;
+    height: 2px;
+    background-color:#000000 ;
+    position: absolute;
+    top: 60px;
+    left: 3px;
+}
+
+.about-us .container .down-right .down-m p{
+    width: 555px;
+    position: absolute;
+    left: 704px;
+    top: -74px;
+    height: 224px;
+    font-family: 'Saira';
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 32px;
+    color: #0a0a0a;
 }

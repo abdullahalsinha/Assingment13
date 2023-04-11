@@ -507,3 +507,132 @@ section .container .off-ri .down h2{
     line-height: 32px;
     color: #0a0a0a;
 }
+
+.dd .m2 h3{
+    position: relative;
+    left: 123px;
+    top: 766px;
+    width: 264px;
+    height: 157px;
+    font-family: 'Saira';
+    font-weight: 600;
+    font-size: 79px;
+    line-height: 157px;
+    text-align: center;
+    color: #000000;
+}
+
+.dd .m2 p{
+    position: absolute;
+    left: 185px;
+    top: 873px;
+    width: 129px;
+    height: 28px;
+    font-family: 'Saira';
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 28px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #000000;
+}
+
+/* .dd .m2 p::after{
+    display: flex;
+    
+    content: "";
+    display: inline-block;
+    width: 170px;
+    height: 5px;
+    background-color:#8d1212 ;
+    position: absolute;
+    top: 60px;
+    left: 3px;
+} */
+
+.dd .m h3{
+    position: relative;
+    width: 196px;
+    height: 157px;
+    left: 473px;
+    top: 529px;
+    font-family: 'Saira';
+    font-weight: 600;
+    font-size: 79px;
+    line-height: 157px;
+    text-align: center;
+    color: #000000;
+}
+
+.dd .m p{
+position: relative;
+width: 230px;
+height: 28px;
+left: 460px;
+top: 416px;
+font-family: 'Saira';
+font-weight: 400;
+font-size: 18px;
+line-height: 28px;
+text-align: center;
+text-transform: uppercase;
+color: #000000;
+}
+
+.dd .line h3{
+position: relative;
+width: 61px;
+height: 157px;
+left: 791px;
+top: 191px;
+font-family: 'Saira';
+font-weight: 600;
+font-size: 79px;
+line-height: 157px;
+text-align: center;
+color: #000000;
+
+}
+
+.dd .line p{
+    position: relative;
+    width: 169px;
+    height: 56px;
+    left: 734px;
+    top: 78px;
+    font-family: 'Saira';
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #000000;
+}
+
+.dd .security h3{
+    position: relative;
+    width: 225px;
+    height: 157px;
+    left: 937px;
+    top: -184px;
+    font-family: 'Saira';
+    font-weight: 700;
+    font-size: 79px;
+    line-height: 157px;
+    text-align: center;
+    color: #000000;
+}
+
+.dd .security p{
+position: relative;
+width: 85px;
+height: 28px;
+left: 998px;
+top: -295px;
+font-family: 'Saira';
+font-weight: 400;
+font-size: 18px;
+line-height: 28px;
+text-transform: uppercase;
+color: #000000;
+}

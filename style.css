@@ -11,7 +11,7 @@
 
 header .container{
     background-image:url(image/pic1.png) ;
-    
+    height: 900px;
     background-size: cover;
     
 }
@@ -128,6 +128,7 @@ hr{
     border: none;
 }
 
+
 .container .down-right .left img{
     position: relative;
     width: 25%;
@@ -191,13 +192,22 @@ background-clip: text; */
 
 }
 
+section .container .left{
+    margin-top: 54px;
+} 
+
 section .container .text h2::after{
     content: "";
     display: inline-block;
+    position: relative;
+    top: 32px;
+    left: -435px;
     width: 200px;
     height: 2px;
     background-color: #fff;
 }
+
+
 
 section .container .left img{
     width: 23%;
@@ -253,7 +263,7 @@ section .container .office h2::after{
     display: inline-block;
     width: 100px;
     height: 2px;
-    background-color: #000000;
+    background-color: #ffffff;
     position: relative;
     top: -17px;
 }
@@ -312,7 +322,8 @@ section .container .off-ri .down p{
     width: 539px;
     position: relative;
     top: -728px;
-    left: 735px;
+    left: 755px;
+    color: #FFFFFF;
 }
 
 section .container .off-ri .down h2{
@@ -335,7 +346,7 @@ section .container .off-ri .down h2{
     line-height: 25px;
     text-align: center;
     text-transform: uppercase;
-    color: #000000;
+    color: #EEEEEE;
 }
 
 .down-ll h3{
@@ -365,7 +376,7 @@ section .container .off-ri .down h2{
     line-height: 20px;
     text-align: center;
     text-transform: uppercase;
-    color: #020101;
+    color: #EEEEEE;
 }
 
 .down-rr p{
@@ -380,7 +391,7 @@ section .container .off-ri .down h2{
     line-height: 25px;
     text-align: center;
     text-transform: uppercase;
-    color: #130c0c;
+    color:#EEEEEE;;
 }
 
 .down-rr h3{
@@ -439,7 +450,7 @@ section .container .off-ri .down h2{
     font-weight: 400;
     font-size: 14px;
     line-height: 22px;
-    color: #0f0d0d;
+    color: #EEEEEE;
 }
 
 .about-us .container .right img{
@@ -467,7 +478,7 @@ section .container .off-ri .down h2{
     font-size: 20px;
     line-height: 31px;
     text-transform: uppercase;
-    color: #000000;
+    color: #EEEEEE;
 }
 
 .about-us .container .down-right .down-m h3{
@@ -490,7 +501,7 @@ section .container .off-ri .down h2{
     width: 170px;
     height: 2px;
     height: 2px;
-    background-color:#000000 ;
+    background-color:#EEEEEE ;
     position: absolute;
     top: 60px;
     left: 3px;
@@ -506,11 +517,18 @@ section .container .off-ri .down h2{
     font-weight: 400;
     font-size: 19px;
     line-height: 32px;
-    color: #0a0a0a;
+    color: #EEEEEE;
 }
 
 .about-us .dd {
+    height: 814px;
     background-color:#1E1E1E;
+}
+
+.dd .m2{
+    margin-top: -108px;
+    position: relative;
+    top: -201px;
 }
 
 .dd .m2 h3{
@@ -555,6 +573,11 @@ section .container .off-ri .down h2{
     left: 3px;
 } */
 
+.dd .m{
+    position: relative;
+    top: -201px;
+}
+
 .dd .m h3{
     position: relative;
     width: 196px;
@@ -585,7 +608,9 @@ section .container .off-ri .down h2{
 }
 
 .dd .line{
-    margin-top: -10px;
+    margin-top: -18px;
+    position: relative;
+    top: -201px;
 }
 
 .dd .line h3{
@@ -616,6 +641,12 @@ section .container .off-ri .down h2{
     text-align: center;
     text-transform: uppercase;
     color: #EEEEEE;
+}
+
+.dd .security {
+    margin-top: 88px;
+    position: relative;
+    top: -201px;
 }
 
 .dd .security h3{
@@ -903,6 +934,11 @@ section .container .off-ri .down h2{
     color: #FFFFFF;
 }
 
+.services .container .dwn{
+    position: relative;
+    height: 1100px;
+}
+
 .services .container .dwn .assi img{
     position: relative;
     top: -2105px;
@@ -1070,7 +1106,7 @@ height: 26px;
 
 .services .container .downn .right img{
     position: absolute;
-    width: 700px;
+    width: 761px;
     height: 608px;
     left: 556px;
     top: -2432px;
@@ -1209,4 +1245,48 @@ footer .container .cc p{
     left: 50px;
     top: 441px;
     color: #FFFFFF;
+}
+
+/* responsive start  */
+
+@media screen and (max-width:414px) {
+    header .container .up {
+        width: 100%;
+        max-width: 414px;
+
+    }
+
+    header .container .up hr{
+        position: relative;
+        top: -250px;
+    }
+
+    header .container .down-left .text-1{
+
+position: relative;
+top: -5px;
+left: -60px;
+width: 350px;
+height: 100px;
+
+font-family: 'Saira';
+font-weight: 700;
+font-size: 2px;
+line-height: 50px;
+
+/* background: linear-gradient(144.5deg, #EB1D23 12.71%, #A30003 93.87%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+background-clip: text;
+text-fill-color: transparent; */
+
+}
+
+header .container .down-left .text2{
+    position: relative;
+
+    left: -90px;
+    width: 450px;
+    font-size: 10pxs;
+}
 }

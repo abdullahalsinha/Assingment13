@@ -192,6 +192,10 @@ background-clip: text; */
 
 }
 
+section .container .mob h2{
+    display: none;
+}
+
 section .container .left{
     margin-top: 54px;
 } 
@@ -229,11 +233,29 @@ section .container .right img{
     top: -384px;
 }
 
+section .container .cc img{
+    width: 1800px;
+    position: relative;
+    top: -650px;
+    left: -92px;
+}
+
+section .container .bg-p{
+    margin-top: -420px;
+}
+
 section .container .bg-p img{
     width: 100%;
     max-width: 1420px;
     position: relative;
     top: -267px;
+}
+
+section .container .cd img{
+    width: 1500px;
+    position: relative;
+    top: -492px;
+
 }
 
 section .container .bg-p h2{
@@ -248,6 +270,10 @@ section .container .bg-p h2{
     text-align: center;
     text-transform: uppercase;
     color: #FFFFFF;
+}
+
+section .container .office{
+    margin-top: -350px;
 }
 
 section .container .office h2{
@@ -379,6 +405,10 @@ section .container .off-ri .down h2{
     color: #EEEEEE;
 }
 
+.down-rr {
+    height: 384px;
+}
+
 .down-rr p{
     position: relative;
     top: -1136px;
@@ -453,6 +483,12 @@ section .container .off-ri .down h2{
     color: #EEEEEE;
 }
 
+.about-us .container .left img{
+    position: absolute;
+    top: -690px;
+    left: 400px;
+}
+
 .about-us .container .right img{
     width: 703px;
     position: absolute;
@@ -465,6 +501,7 @@ section .container .off-ri .down h2{
     position: absolute;
     top: -314px;
     left: 26px;
+    opacity: 10;
 }
 
 .about-us .container .down-right .foun p{
@@ -479,6 +516,10 @@ section .container .off-ri .down h2{
     line-height: 31px;
     text-transform: uppercase;
     color: #EEEEEE;
+}
+
+.about-us .container .founder img{
+    position: absolute;
 }
 
 .about-us .container .down-right .down-m h3{
@@ -522,7 +563,14 @@ section .container .off-ri .down h2{
 
 .about-us .dd {
     height: 814px;
-    background-color:#1E1E1E;
+    background-color:#13191D;
+}
+
+.about-us .dd .back-gd img{
+    width: 813px;
+    position: relative;
+    top: 269px;
+    left: 300px;
 }
 
 .dd .m2{
@@ -700,6 +748,7 @@ section .container .off-ri .down h2{
     line-height: 63px;
     text-transform: uppercase;
     color: #CA1217;
+    margin-top: 50px;
 }
 
 .services .container .text h2::after{
@@ -1230,8 +1279,8 @@ border-radius: 20px;
 footer .container .box img{
     width: 884px;
     position: absolute;
-    left: 419px;
-    top: 222px;
+    left: 446px;
+    top: 199px;
 }
 
 footer .container hr{
@@ -1261,17 +1310,17 @@ footer .container .cc p{
         top: -250px;
     }
 
-    header .container .down-left .text-1{
+    header .container .down-left .text-1 h2{
 
 position: relative;
-top: -5px;
-left: -60px;
+top: -100px;
+left: -12px;
 width: 350px;
 height: 100px;
 
 font-family: 'Saira';
 font-weight: 700;
-font-size: 2px;
+font-size: 32px;
 line-height: 50px;
 
 /* background: linear-gradient(144.5deg, #EB1D23 12.71%, #A30003 93.87%);
@@ -1282,11 +1331,101 @@ text-fill-color: transparent; */
 
 }
 
-header .container .down-left .text2{
+header .container .down-left .text2 h2{
     position: relative;
-
-    left: -90px;
+    top: -174px;
+    left: -12px;
     width: 450px;
-    font-size: 10pxs;
+    font-size: 32px;
 }
+
+.container .down-left .text2 p{
+    width: 360px;
+    position: relative;
+    left: -10px;
+    top: -221px;
+}
+
+.container .down-left .text2 button{
+    position: relative;
+    top: -189px;
+    left: -10px;
+}
+
+.container .down-right .right img{
+    width: 184px;
+    position: relative;
+    left: 17px;
+    top: -268px;
+}
+
+.container .down-right .left img{
+    width: 186px;
+    position: relative;
+    left: 208px;
+    top: -131px;
+}
+
+.container .down-right .down img{
+    width: 380px;
+    position: relative;
+    top: -264px;
+    left: 15px;
+
+}
+
+section .container .text h2{
+    display: none;
+}
+
+section .container .mob h2{
+    color: #A30003;
+    display: inline-block;
+    padding: 23px 68px;
+}
+
+section .container .mob h2::after{
+    content: "";
+    display: inline-block;
+    width: 212px;
+    height: 2px;
+    background-color: #ffffff;
+    position: relative;
+    top: -13px;
+    left: 24px;
+}
+
+section .container .left img{
+    width: 196px;
+    position: relative;
+    top: -54px;
+    left: 9px;
+}
+
+section .container .left2 img{
+    width: 180px;
+    position: relative;
+    top: -214px;
+    left: 208px;
+}
+
+section .container .right img{
+    width: 380px;
+    height: 170px;
+    position: relative;
+    left: 10px;
+    top:-173px;
+}
+
+section .container .bg-p img{
+    margin-top: 245px;
+}
+
+section .container .bg-p h2{
+    position: relative;
+    top: -437px;
+    left: -190px;
+    font-size: 32px;
+}
+
 }

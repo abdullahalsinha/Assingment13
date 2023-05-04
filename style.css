@@ -774,10 +774,6 @@ section .container .off-ri .down h2{
     left: 15px;
 }
 
-.services .container .img-d{
-    overflow: hidden;
-}
-
 .services .container .img-d
 .cafe img{
     position: relative;
@@ -1105,10 +1101,21 @@ background-clip: text;
 
 .services .container .downn 
 .ttx img{
-    width: 1322px;
     position: absolute;
-    top: -2738px;
-    left: 3px;
+    top: -2610px;
+    left: 10px;
+width: 1279px;
+height: 126px;
+font-family: 'Saira';
+font-style: normal;
+font-weight: 900;
+font-size: 80px;
+line-height: 126px;
+color: rgba(202, 18, 23, 0.97);
+flex: none;
+order: 0;
+flex-grow: 0;
+
 }
 
 .services .container .downn 
@@ -1578,6 +1585,8 @@ width: 63px;
     position: absolute;
     top: -1194px;
     left: 3px;
+    width: 1011px;
+height: 63px;
     font-family: 'Saira';
 font-size: 40px;
 font-weight: 900;
@@ -1717,4 +1726,526 @@ border-radius: 0px;
     top: 22px;
     left: -162px;
 }
+
+.about-us .dd .back-gd img{
+    width: 543px;
+    height: 519px;
+    position: relative;
+    left: -50px;
+    top: 294px;
 }
+
+.dd .m2 h3{
+height: 36px;
+width: 200px;
+left: -10px;
+top: 72px;
+font-size: 51px;
+}
+
+.dd .m2 p{
+/* position: absolute; */
+width: 99px;
+height: 22px;
+left: 30px;
+top: 171px;
+font-family: 'Saira';
+font-style: normal;
+font-weight: 300;
+font-size: 14px;
+line-height: 22px;
+text-align: center;
+text-transform: uppercase;
+color: #EEEEEE;
+}
+
+.dd .m h3{
+width: 93px;
+height: 76px;
+left: 232px;
+top: 26px;
+font-family: 'Saira';
+font-style: normal;
+font-weight: 600;
+font-size: 48px;
+line-height: 76px;
+text-align: center;
+color: #FFFFFF;
+}
+
+.dd .m p{
+width: 121px;
+height: 44px;
+left: 235px;
+top: -28px;
+font-family: 'Saira';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 22px;
+text-align: center;
+text-transform: uppercase;
+color: #EEEEEE;
+}
+
+.dd .m p::after{
+    content: "";
+    display: inline-block;
+    width: 376px;
+    height: 2px;
+    background-color: #eb2124;
+    position: relative;
+    top: 33px;
+    left: -227px;
+}
+
+.dd .line h3{
+width: 30px;
+height: 76px;
+left: 70px;
+top: 72px;
+font-family: 'Saira';
+font-weight: 600;
+font-size: 48px;
+line-height: 76px;
+text-align: center;
+color: #FFFFFF;
+}
+
+.dd .line p{
+position: absolute;
+width: 130px;
+height: 44px;
+left: 20px;
+top: 134px;
+font-family: 'Saira';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 22px;
+text-align: center;
+text-transform: uppercase;
+color: #EEEEEE;
+}
+
+.dd .security h3{
+width: 107px;
+height: 76px;
+left: 238px;
+top: -91px;
+font-family: 'Saira';
+font-style: normal;
+font-weight: 600;
+font-size: 48px;
+line-height: 76px;
+text-align: center;
+color: #FFFFFF;
+}
+
+.dd .security p{
+width: 66px;
+height: 22px;
+left: 253px;
+top: -142px;
+font-family: 'Saira';
+font-weight: 400;
+font-size: 14px;
+line-height: 22px;
+text-align: center;
+text-transform: uppercase;
+color: #EEEEEE;
+}
+
+
+
+
+/* start if services  */
+
+
+
+.services .container .text h2{
+    /* Services */
+
+width: 113px;
+height: 38px;
+position: relative;
+top: 29px;
+left: 129px;
+font-family: 'Saira';
+font-weight: 500;
+font-size: 24px;
+line-height: 38px;
+text-align: center;
+text-transform: uppercase;
+color: #CA1217;
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+
+.services .container .text h2::after{
+    width: 108px;
+    position: relative;
+    left: -1px;
+    top: -23px;
+}
+
+.services .container .img-d{
+    margin-top: 72px;
+}
+
+.services .container .img-d .cafe img{
+    height: 158px;
+width: 133px;
+left: 0px;
+top: 0px;
+}
+
+.services .container .img-d .cafe p{
+    position: relative;
+width: 44px;
+height: 28px;
+left: 40px;
+top: -108px;
+font-family: 'Saira';
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 28px;
+text-transform: uppercase;
+color: #FFFFFF;
+}
+
+.services .container .img-d .gym img{
+    width: 132px;
+    height: 158px;
+    left: 133px;
+    top: -226px;
+}
+
+.services .container .img-d .gym p{
+    /* GYM */
+
+position: relative;
+width: 40px;
+height: 28px;
+left: 173px;
+top: -334px;
+
+font-family: 'Saira';
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 28px;
+text-transform: uppercase;
+
+color: #FFFFFF;
+
+
+}
+
+.services .container .img-d .pool img{
+width: 132px;
+height: 158px;
+left: 265px;
+top: -358px;
+background: rgba(0, 0, 0, 0.4);
+}
+
+.services .container .img-d .pool p{
+
+width: 48px;
+height: 28px;
+left: 314px;
+top: -465px;
+
+font-family: 'Saira';
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 28px;
+text-transform: uppercase;
+
+color: #FFFFFF;
+
+
+}
+
+.services .container .img-d .sauna img{
+
+width: 133px;
+height: 158px;
+left: 0px;
+top: -329px;
+
+background: rgba(0, 0, 0, 0.4);
+
+}
+
+.services .container .img-d .sauna p{
+width: 62px;
+height: 28px;
+left: 32px;
+top: -440px;
+
+font-family: 'Saira';
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 28px;
+text-transform: uppercase;
+
+color: #FFFFFF;
+
+
+}
+
+
+.services .container .img-d .shop img{
+width: 132px;
+height: 158px;
+left: 132px;
+top: -453px;
+
+background: rgba(0, 0, 0, 0.4);
+
+}
+
+.services .container .img-d .shop p{
+width: 49px;
+height: 28px;
+left: 167px;
+top: -564px;
+font-family: 'Saira';
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 28px;
+text-transform: uppercase;
+color: #FFFFFF;  
+}
+
+.services .container .img-d .kids img{
+    width: 132px;
+    height: 158px;
+    left: 264px;
+    top: -564px;
+    
+    background: rgba(0, 0, 0, 0.4);
+}
+
+.services .container .img-d .kids p{
+width: 94px;
+height: 28px;
+left: 287px;
+top: -677px;
+font-family: 'Saira';
+font-weight: 500;
+font-size: 18px;
+line-height: 28px;
+text-transform: uppercase;
+color: #FFFFFF;
+}
+
+.services .container .img-d .parking img{
+    margin-top: 1237px;
+    height: 200px;
+width: 398px;
+left: 0px;
+top: -1764px;
+border-radius: 0px;
+
+}
+
+.services .container .img-d .parking h3{
+width: 279px;
+height: 88px;
+left: 60px;
+top: -2010px;
+font-family: 'Saira';
+font-weight: 600;
+font-size: 60px;
+line-height: 101px;
+text-transform: uppercase;
+color: #FFFFFF;
+
+}
+
+.services .container .img-d .parking p{
+    position: relative;
+    width: 137px;
+    height: 24px;
+    left: 124px;
+    top: -2070px;
+    font-family: 'Saira';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+
+.services .container .dwn .assi img{
+    position: relative;
+    top: -1600px;
+    left: 178px;
+    height: 240px;
+width: 240px;
+border-radius: 0px;
+
+}
+
+.services .container .dwn .right h2{
+position: absolute;
+width: 219px;
+height: 38px;
+left: 15px;
+top: -1926px;
+font-family: 'Saira';
+font-style: normal;
+font-weight: 500;
+font-size: 24px;
+line-height: 38px;
+text-transform: uppercase;
+color: #CA1217;
+}
+
+.services .container .dwn .right p{
+    margin-top: -264px;
+    position: relative;
+    height: 154px;
+    width: 350px;
+    left: 15px;
+    top: -2050px;
+}
+
+
+.services .container .dwn .right h3{
+    position: relative;
+    top: -2035px;
+    left: 3px;
+width: 131px;
+height: 50px;
+font-family: 'Saira';
+font-style: normal;
+font-weight: 800;
+font-size: 32px;
+line-height: 50px;
+text-align: center;
+color: #CA1217;
+}
+
+
+
+.services .container .dwn .dd p{
+    position: relative;
+    top: -1958px;
+    left: 18px;
+}
+
+.services .container .dwn .dd h3{
+width: 248px;
+height: 113px;
+left: 15px;
+top: -2030px;
+font-family: 'Saira';
+font-style: normal;
+font-weight: 300;
+font-size: 72px;
+line-height: 113px;
+text-align: center;
+background: linear-gradient(0deg, #FFFFFF, #FFFFFF), linear-gradient(144.5deg, #EB1D23 12.71%, #A30003 93.87%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
+
+.services .container .dwn .left img{
+    top: -1624px;
+width: 345px;
+height: 236px;
+left: 27px;
+background: url(download.png);
+border-radius: 20px;
+}
+
+.services .container .downn .ttx img{
+width: 979px;
+height: 63px;
+font-family: 'Saira';
+font-style: normal;
+font-weight: 900;
+font-size: 40px;
+line-height: 63px;
+color: #CA1217;
+flex: none;
+order: 0;
+flex-grow: 0;
+
+}
+
+.services .container .downn .left {
+    margin-top: 450px;
+}
+
+.services .container .downn .left h3{
+position: absolute;
+width: 890px;
+height: 38px;
+left: 34px;
+top: -2515px;
+font-family: 'Saira';
+font-style: normal;
+font-weight: 500;
+font-size: 24px;
+line-height: 38px;
+text-transform: uppercase;
+color: #CA1217;
+}
+
+
+.services .container .downn .left h4{
+    top: -2435px;
+    left: 50px;
+}
+
+.services .container .downn .left img{
+    position: absolute;
+    top: -2412px;
+    left: 20px;
+}
+
+.services .container .downn .left p{
+position: absolute;
+width: 345px;
+height: 168px;
+left: 22px;
+top: -2369px;
+font-family: 'Saira';
+font-style: normal;
+font-weight: 300;
+font-size: 14px;
+line-height: 24px;
+color: #FFFFFF;
+}
+
+.services .container .downn img{
+position: absolute;
+width: 370px;
+height: 200px;
+left: 15px;
+top: -2167px;
+background: url(Screenshot_5.jpg);
+border-radius: 16px;
+}
+
+.services .container .downn .right img{
+position: absolute;
+width: 370px;
+height: 200px;
+left: 15px;
+top: -1926px;
+background: url(DJI_0244.jpg);
+border-radius: 16px;
+}
+}
+

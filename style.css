@@ -1231,7 +1231,7 @@ footer .container .right h2{
     position: absolute;
     width: 81px;
     height: 20px;
-    left: 540px;
+    left: 464px;
     top: 56px;
 
     font-family: 'Saira';
@@ -1254,57 +1254,76 @@ footer .container .right a{
     line-height: 20px;
     color: #EEEEEE;
     position: relative;
-    left: 528px;
+    left: 456px;
     top: -197px;
 
 }
 
-footer .container .box h3{
-    position: absolute;
-    width: 181px;
-    height: 32px;
-    left: 768px;
-    top: 40px;
-    opacity: 10;
-    font-family: 'Saira';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 32px;
-    line-height: 32px;
-    color: #FFFFFF;
+footer .container .fp img{
+    position: relative;
+    top: -393px;
+}
 
+footer .container .box{
+    box-sizing: border-box;
+
+position: absolute;
+width: 590px;
+height: 409px;
+left: 728px;
+top: 10px;
+background: linear-gradient(129.6deg, rgba(255, 255, 255, 0.105) 0%, rgba(255, 255, 255, 0.063) 100%);
+box-shadow: 10px 10px 61px rgba(23, 23, 23, 0.1);
+backdrop-filter: blur(9px);
+border-radius: 20px;
+}
+
+footer .container  .box h3{
+position: absolute;
+width: 181px;
+height: 32px;
+left: 32px;
+
+font-family: 'Saira';
+font-style: normal;
+font-weight: 700;
+font-size: 32px;
+line-height: 32px;
+color: #FFFFFF;
 }
 
 footer .container .box input{
-    display: block;
-    /* Rectangle 2 */
-
-box-sizing: border-box;
-
+    color:#05ff75;
+    height: 38px;
+width: 491px;
+/* left: 40px;
+top: 104px; */
 position: absolute;
-width: 504px;
-height: 280px;
-left: 754px;
-top: 56px;
-
-background: linear-gradient(129.6deg, rgba(255, 255, 255, 0.105) 0%, rgba(255, 255, 255, 0.063) 100%);
-box-shadow: 10px 10px 61px rgba(23, 23, 23, 0.1);
-backdrop-filter: blur(8px);
-/* Note: backdrop-filter has minimal browser support */
-border-radius: 20px;
+left: 33px;
+top: 96px;
+border-radius: 4px;
+background-color: #333333;
+opacity: 0.7;
+padding: 14px 16px 14px 16px;
+border: 1px solid white;
 
 }
 
-footer .container .box img{
-    width: 884px;
+footer .container .box ::placeholder{
+    color: #ffffff;
+}
+
+footer .container .box .mm input{
+    color: #43baff;
     position: absolute;
-    left: 446px;
-    top: 199px;
+    top: 164px;
+    height: 145px;
 }
+
 
 footer .container hr{
     position: relative;
-    top: 10px;
+    top: -462px;
     color: #444444;
 }
 
@@ -1314,6 +1333,7 @@ footer .container .cc p{
     top: 441px;
     color: #FFFFFF;
 }
+
 
 /* responsive start  */
 
@@ -2246,6 +2266,110 @@ left: 15px;
 top: -1926px;
 background: url(DJI_0244.jpg);
 border-radius: 16px;
+}
+
+
+    /* start of footer  */
+
+footer .container{
+    height: 950px;
+    background-color: #000000;
+}
+
+footer .container .left img{
+    height: 56px;
+    width: 196px;
+    border-radius: 0px;
+    position: relative;
+    top: -63px;
+    left: -68px;
+}
+
+footer .container .right img{
+    position: relative;
+    left: 184px;
+    top: -159px;
+}
+
+footer .container .right h2{
+    height: 20px;
+    width: 73px;
+    position: relative;
+    left: 23px;
+    top: -425px;
+}
+
+footer .container .right a{
+    width: 303px;
+height: 20px;
+position: relative;
+left: 13px;
+top: -423px;
+font-family: 'Saira';
+font-weight: 300;
+font-size: 14px;
+line-height: 20px;
+color: #EEEEEE;
+}
+
+footer .container .social img{
+    width: 43px;
+height: 40px;
+position: relative;
+left: 15px;
+top: 80px;
+
+}
+
+footer .container .box{
+    margin-left: -718px;
+    margin-top: 382px;
+    width: 378px;
+    height: 361px;
+}
+
+footer .container .box h3{
+position: absolute;
+width: 136px;
+height: 32px;
+left: 22px;
+top: 8px;
+font-family: 'Saira';
+font-weight: 700;
+font-size: 24px;
+line-height: 32px;
+color: #FFFFFF;
+}
+
+footer .container .box input{
+    position: absolute;
+    left: 21px;
+    width: 310px;
+    height: 43px;
+}
+
+footer .container .box .mm input{
+    position: absolute;
+    top: 170px;
+}
+
+footer .container hr{
+    color: #444444;
+    top: 65px;
+}
+
+footer .container .cc p{
+position: absolute;
+width: 260px;
+height: 36px;
+left: 15px;
+top: 821px;
+font-family: 'Saira';
+font-style: normal;
+font-weight: 300;
+font-size: 12px;
+line-height: 18px;
+color: #FFFFFF;
 }
 }
 

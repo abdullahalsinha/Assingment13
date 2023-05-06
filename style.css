@@ -2352,6 +2352,7 @@ border-radius: 16px;
 footer .container{
     height: 950px;
     background-color: #000000;
+    overflow: hidden;
 }
 
 footer .container .left img{
@@ -2397,6 +2398,10 @@ position: relative;
 left: 15px;
 top: 80px;
 
+}
+
+footer .container .fp{
+    overflow: hidden;
 }
 
 footer .container .fp img{
